@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ---------------------header----------------------- -->
+    <header class="header">
+        <div class="container h-100">
+            <div class="heaer__wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg rounded-4">
+                    <div class="container-fluid">
+                        <!-- دکمه‌ی باز کردن Offcanvas در موبایل -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#mobileMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <a class="navbar-brand" href="#">
+                            <img src="img/header/logo.png" alt="brand-logo" class="img-fluid" width="120">
+                        </a>
+
+
+
+                        <div class="collapse navbar-collapse d-lg-flex justify-content-between align-items-center">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item menu-item"><a href="#" class="nav-link menu-link">خانه</a></li>
+                                <li class="nav-item menu-item"><a href="#" class="nav-link menu-link">خدمات ما</a>
+                                    <ul class="nav-submenu shadow-lg rounded-4">
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">زیر منو</a>
+                                        </li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">زیر منو</a>
+                                        </li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">زیر منو</a>
+                                        </li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">زیر منو</a>
+                                            <ul class="nav-submenu shadow-lg rounded-4">
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item menu-item"><a href="#" class="nav-link menu-link">سوالات متداول</a>
+                                    <ul class="nav-submenu shadow-lg rounded-4">
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                1</a></li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                2</a></li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                3</a>
+                                            <ul class="nav-submenu shadow-lg rounded-4">
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                                <li class="nav-submenu-item"><a href="#"
+                                                        class="nav-submenu-link">تست</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                4</a></li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                5</a></li>
+                                        <li class="nav-submenu-item"><a href="#" class="nav-submenu-link">سوال شماره
+                                                6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item menu-item"><a href="#" class="nav-link menu-link">تماس با ما</a>
+                                </li>
+                                <li class="nav-item menu-item"><a href="#" class="nav-link menu-link">درباره ما</a></li>
+                            </ul>
+
+                            <div class="nav-btn">
+                                <a href="#" class="btn  btn-primary">
+                                    <span>021656565</span>
+                                    <i class="fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Offcanvas برای موبایل -->
+                <div class="offcanvas offcanvas-end w-50  " tabindex="-1" id="mobileMenu">
+                    <div class="offcanvas-header responsive-menu__header">
+                        <button type="button" class="btn-close mx-0" data-bs-dismiss="offcanvas"></button>
+                        <div class="nav-btn m-3">
+                            <a href="#" class="btn  btn-primary">
+                                <span>021656565</span>
+                                <i class="fas fa-phone-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="offcanvas-body responsive-menu__body">
+                        <div class="responsive-menu__list">
+                            <ul>
+                                <li><a href="#">خانه</a></li>
+                                <li><a href="#">خدمات ما</a>
+                                    <ul>
+                                        <li><a href="#">زیر منو</a></li>
+                                        <li><a href="#">زیر منو</a></li>
+                                        <li><a href="#">زیر منو</a></li>
+                                        <li><a href="#">زیر منو</a>
+                                            <ul>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">سوالات متداول</a>
+                                    <ul>
+                                        <li><a href="#">سوال شماره 1</a></li>
+                                        <li><a href="#">سوال شماره 2</a></li>
+                                        <li><a href="#">سوال شماره 3</a>
+                                            <ul>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                                <li><a href="#">تست</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">سوال شماره 4</a></li>
+                                        <li><a href="#">سوال شماره 5</a></li>
+                                        <li><a href="#">سوال شماره 6</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">تماس با ما</a></li>
+                                <li><a href="#">درباره ما</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- header content-->
+                <div class="header-content">
+                    <div class="header-content__box col-10 col-sm-9 col-md-7 col-lg-5">
+                        <h1>مرکز درمان در منزل لورم</h1>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        </p>
+                    </div>
+
+                    <div class="btn-main mt-4 ms-4">
+                        <a href="#" class="btn btn-primary">
+                            <span>درباره ما</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------services----------------------- -->
+    <section class="services section-m">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-head text-center mb-3">
+                        <div class="section-head__title">
+                            خدمات ما
+                        </div>
+                        <div class="section-head__desc">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 ">
+                    <div class="services__item services__item--selected">
+                        <div class="services__item-img ">
+                            <img src="img/service/1.png" class="img-fluid" alt="service-image">
+                        </div>
+                        <div class="services__item-title mb-3">
+                            <h4>پرستاری از سالمندان
+                            </h4>
+                        </div>
+                        <div class="services__item-desc mb-5">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. </p>
+                        </div>
+                        <div class="services__item-link">
+                            <a href="#"><i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-5 ">
+                    <div class="services__item">
+                        <div class="services__item-img ">
+                            <img src="img/service/2.png" class="img-fluid" alt="service-image">
+                        </div>
+                        <div class="services__item-title mb-3">
+                            <h4>پرستاری از بیماران
+                            </h4>
+                        </div>
+                        <div class="services__item-desc mb-5">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. </p>
+                        </div>
+                        <div class="services__item-link">
+                            <a href="#"><i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 ">
+                    <div class="services__item">
+                        <div class="services__item-img ">
+                            <img src="img/service/3.png" class="img-fluid" alt="service-image">
+                        </div>
+                        <div class="services__item-title mb-3">
+                            <h4>پرستاری از کودکان
+                            </h4>
+                        </div>
+                        <div class="services__item-desc mb-5">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. </p>
+                        </div>
+                        <div class="services__item-link">
+                            <a href="#"><i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 ">
+                    <div class="services__item">
+                        <div class="services__item-img ">
+                            <img src="img/service/4.png" class="img-fluid" alt="service-image">
+                        </div>
+                        <div class="services__item-title mb-3">
+                            <h4>
+                                معاینه در منزل
+                            </h4>
+                        </div>
+                        <div class="services__item-desc mb-5">
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است. </p>
+                        </div>
+                        <div class="services__item-link">
+                            <a href="#"><i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------about us----------------------- -->
+    <section class="about-us section-m">
+        <div class="container">
+            <div class="row w-100 align-items-center">
+                <div class="col-lg-5">
+                    <img src="img/about-us/pic.jpg" class="img-fluid about-us__img" alt="about-us">
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-us__content">
+                        <div class="section-head text-start">
+                            <div class="section-head__title">
+                                درباره ما
+                            </div>
+                            <div class="section-head__desc">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                            </div>
+                        </div>
+                        <div class="about-us__body">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی
+                                مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت
+                                و سه
+                                درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                            </p>
+                            <div class="btn-main">
+
+                                <a href="#" class="btn btn-primary ">
+                                    <span>درباره ما</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------articles----------------------- -->
+    <section class="articles section-m">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <div class="section-head text-center mb-3">
+                        <div class="section-head__title">
+                            اخبار و مقالات
+                        </div>
+                        <div class="section-head__desc">
+                            جدیدترین اخبار و مقالات ما
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card article ">
+                        <a href="#"><img src="img/articles/1.jpg" class="card-img  img-fluid article__img"
+                                alt="article-image"></a>
+                        <div class="card-body article-body">
+                            <h5 class="card-title article-body__title"> لورم ایپسوم متن ساختگی با تولید</h5>
+                            <p class="card-text article-body__desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <a href="#" class=" fs-4 text-primary ">بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card article">
+                        <a href="#"><img src="img/articles/2.jpg" class="card-img img-fluid article__img"
+                                alt="article-image"></a>
+                        <div class="card-body article-body">
+                            <h5 class="card-title article-body__title"> لورم ایپسوم متن ساختگی با تولید</h5>
+                            <p class="card-text article-body__desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <a href="#" class=" fs-4 text-primary ">بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card article">
+                        <a href="#"><img src="img/articles/3.jpg" class="card-img img-fluid article__img"
+                                alt="article-image"></a>
+                        <div class="card-body article-body">
+                            <h5 class="card-title article-body__title"> لورم ایپسوم متن ساختگی با تولید</h5>
+                            <p class="card-text article-body__desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <a href="#" class=" fs-4 text-primary ">بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-more text-center">
+                    <a href="#">مشاهده همه مقالات</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------videos----------------------- -->
+    <section class="videos section-m">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-12">
+                    <div class="videos__title d-flex align-items-center">
+                        <div class="videos__title-icon">
+                            <i class="fas fa-play-circle "></i>
+                        </div>
+                        <div class="videos__title-txt ms-3 ">
+                            جدیدترین ویدئوها
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 w-100">
+                <div class="videos__spec">
+                    <div class="videos__play-ico">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="videos__spec-content">
+                        <div class="videos__spec-title"> <a href="#">آموزشی</a> </div>
+                        <div class="videos__spec-desc"> <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                صنعت چاپ و با استفاده از طراحان گرافیک است.</a></div>
+                        <div class="videos__spec-footer d-flex justify-content-between align-items-center fs-4 ">
+                            <div class="videos__spec-date">
+                                <i class="far fa-clock me-1"></i>
+                                <span> 5 فروردین 1403</span>
+                            </div>
+                            <div class="videos__spec-time text-danger">
+                                <i class="fas fa-fire me-1"></i>
+                                <span>550,458</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="video col-lg-4 my-2 my-lg-0">
+                    <div class="video__img position-relative ">
+                        <div class="videos__play-ico videos__play-ico--sm">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="img/videos/2.jpg" class="img-fluid" alt="video-img">
+                    </div>
+                    <div class="video__content">
+                        <div class="fs-5 d-flex justify-content-between align-items-center my-3 w-100 mx-auto">
+                            <div class="">
+                                <i class="far fa-clock"></i>
+                                <span> 5 فروردین 1403</span>
+                            </div>
+                            <div class=" text-danger">
+                                <i class="fas fa-fire"></i>
+                                <span>550,458</span>
+                            </div>
+                        </div>
+                        <div class="video__desc">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video col-lg-4 my-2 my-lg-0">
+                    <div class="video__img position-relative ">
+                        <div class="videos__play-ico videos__play-ico--sm">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="img/videos/3.jpg" class="img-fluid" alt="video-img">
+                    </div>
+                    <div class="video__content">
+                        <div class="fs-5 d-flex justify-content-between align-items-center my-3 w-100 mx-auto">
+                            <div>
+                                <i class="far fa-clock "></i>
+                                <span> 5 فروردین 1403</span>
+                            </div>
+                            <div class=" text-danger">
+                                <i class="fas fa-fire "></i>
+                                <span>550,458</span>
+                            </div>
+                        </div>
+                        <div class="video__desc">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video col-lg-4 my-2 my-lg-0">
+                    <div class="video__img position-relative ">
+                        <div class="videos__play-ico videos__play-ico--sm">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="img/videos/1.jpg" class="img-fluid" alt="video-img">
+                    </div>
+                    <div class="video__content">
+                        <div class="fs-5 d-flex justify-content-between align-items-center my-3 w-100 mx-auto">
+                            <div>
+                                <i class="far fa-clock"></i>
+                                <span> 5 فروردین 1403</span>
+                            </div>
+                            <div class=" text-danger">
+                                <i class="fas fa-fire"></i>
+                                <span>550,458</span>
+                            </div>
+                        </div>
+                        <div class="video__desc">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ---------------------footer----------------------- -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 col-lg-4 footer__info-mt mx-auto">
+                    <div class="footer__info my-4">
+                        <div class="footer__tel">
+                            <div class="footer__tel-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="footer__tel-lbl">
+                                <h6>شماره تماس</h6>
+                            </div>
+                            <div class="footer__tel-num">
+                                <span>037-692675</span>
+                            </div>
+
+                        </div>
+                    
+                    <div class="footer__brand d-flex justify-content-around align-items-center my-4 ">
+                        <div class="footer__brand-img">
+                            <img class="img-fluid" src="img/header/logo.png" alt="">
+                        </div>
+                        <div class="footer__brand-lbl">
+                            <span>مرکز درمان در منزل لورم
+                            </span>
+                        </div>
+                    </div>
+                    <div class="footer__txt mt-5">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        </p>
+                    </div>
+                    <div class="footer__contact mt-5">
+                        <div class="footer__contact-item my-2">
+                            <i class="fas fa-envelope me-3"></i>
+                            <span>info@lorem.com</span>
+                        </div>
+                        <div class="footer__contact-item my-2">
+                            <i class="fas fa-map-marker-alt me-3"></i>
+                            <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</span>
+                        </div>
+
+                    </div>
+                    <div class="footer__socials d-flex">
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-11 col-lg-4 mt-4 mt-lg-0 text-white mx-auto">
+                    <div class="footer-head text-lg-center">
+                        <div class="section-head__title">
+                            دسترسی آسان
+                        </div>
+                    </div>
+                    <div class="footer__content">
+                            <ul class="footer__links">
+                                <li class="footer__links-item"><a href="#">صفحه اصلی</a></li>
+                                <li class="footer__links-item"><a href="#">درباره ما</a></li>
+                                <li class="footer__links-item"><a href="#">تماس با ما</a></li>
+                            </ul>
+                            <ul class="footer__links">
+                                <li class="footer__links-item"><a href="#">قوانین و مقررات</a></li>
+                                <li class="footer__links-item"><a href="#">سوالات متداول</a></li>
+                            </ul>
+                    </div>
+                </div>
+        
+                <div class="col-11 col-lg-4 mt-4 mt-lg-0 text-white  mx-auto">
+                    <div class="footer-head text-lg-center">
+                        <div class="section-head__title">
+                            جدیدترین اخبار
+                        </div>
+                    </div>
+                    <div class="footer__posts">
+                        <a href="#"class='footer-item'> <img src="img/footer/1.jpg" alt="post-img"></a>
+                        <a href="#"class='footer-item'> <img src="img/footer/2.jpg" alt="post-img"></a>
+                        <a href="#"class='footer-item'> <img src="img/footer/3.jpg" alt="post-img"></a>
+                        <a href="#"class='footer-item'> <img src="img/footer/4.jpg" alt="post-img"></a>
+                        <a href="#"class='footer-item'> <img src="img/footer/5.jpg" alt="post-img"></a>
+                        <a href="#"class='footer-item'> <img src="img/footer/6.jpg" alt="post-img"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="copy-right">
+                    <span>کلیه حقوق مادی و معنوی این وب سایت محفوظ می باشد  &copy;</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
