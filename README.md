@@ -1,6 +1,6 @@
--- Front of Nursing Landing Page --
+-Front of A Responsive Landing Page  
 
--Made by Html, Css, Javascript, Bootstrap
+-Made By Html, Css, Javascript, Bootstrap
 
--includes css grid, responsive design and Ui-Ux
+
 
