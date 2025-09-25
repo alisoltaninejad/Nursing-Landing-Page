@@ -11,5 +11,5 @@ A modern and responsive landing page built with `**HTML**`, `**CSS**`, `**Bootst
 - 💡 Lightweight JavaScript interactions (e.g. toggles, dropdowns)
   
 ---
-
-![##preview](alisoltaninejad.github.io/Nursing-Landing-Page)
+preview:
+![Nursing-Landing-Page](alisoltaninejad.github.io/Nursing-Landing-Page)
