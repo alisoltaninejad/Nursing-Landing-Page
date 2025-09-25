@@ -1,6 +1,6 @@
 # 🚀 Responsive Landing Page (HTML, CSS, Bootstrap)
 
-A modern and responsive landing page built with `**HTML**`, `**CSS**`, `**Bootstrap**`, `**JavaScript**`. The layout is mobile-first, clean, and user-friendly.
+A modern and responsive landing page built with `HTML`, `CSS`, `Bootstrap`, `JavaScript`. The layout is mobile-first, clean, and user-friendly.
 
 ## ✨ Features
 
@@ -11,5 +11,5 @@ A modern and responsive landing page built with `**HTML**`, `**CSS**`, `**Bootst
 - 💡 Lightweight JavaScript interactions (e.g. toggles, dropdowns)
   
 ---
-preview:
-[Nursing-Landing-Page]([alisoltaninejad.github.io/Nursing-Landing-Page](https://alisoltaninejad.github.io/Nursing-Landing-Page/))
+preview: 
+[Nursing-Landing-Page]( https://alisoltaninejad.github.io/Nursing-Landing-Page/)
