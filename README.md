@@ -12,4 +12,4 @@ A modern and responsive landing page built with `**HTML**`, `**CSS**`, `**Bootst
   
 ---
 preview:
-![Nursing-Landing-Page](alisoltaninejad.github.io/Nursing-Landing-Page)
+[Nursing-Landing-Page]([alisoltaninejad.github.io/Nursing-Landing-Page](https://alisoltaninejad.github.io/Nursing-Landing-Page/))
